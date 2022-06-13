@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Sign Up</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <div class="menu">
+        <div class = "menu-div"><a href="index.html">HOME</a></div>
+        <div class = "menu-div"><a href="addrecipe.html">ADD A RECIPE</a></div>
+        <div class = "menu-div"><a href="searchdishes.html">SEARCH DISHES</a></div>
+        <div class = "menu-div"><a href="login.html">LOG IN</a></div>
+        <div class = "menu-div"><a href="signup.html">REGISTER</a></div>
+        <div class = "menu-div"><a href="contact.html">CONTACT</a></div>
+        <div class = "menu-div"><a href="info.html">ABOUT US</a></div>
+        <div class = "translt-div" id="translt"></div>
+    </div>
+</header>
+<body background="Img/sss.jpg">
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="app.js"></script>
+    <div class ="container" >
+        <div class="container-1-1" >
+            <br><br>
+            <form  style="margin: auto; ">
+                <h1 >Sign Up</h1>
+                <input type="text" name="email" id = "email" placeholder="Email" onkeyup="emailcheck()">
+                <div  id = "email-check-div">
+                </div>
+                <br>
+                <input type="text" id="pass" name="password" placeholder="Password"  onkeyup="passcheck(), confirm()">
+                <div id = "pass-check-div-1">
+                </div>
+                <br>
+                <input type="text" id="conf" name="confirmpassword" placeholder="Confirm Password" onkeyup="confirm()">
+                <div  id = "pass-check-div-2">
+                </div>
+                <br>
+                <input type="date" id = "date" name="date">
+                <script>
+                    document.getElementById('date').value = new Date().toISOString().substring(0, 10);
+                </script>
+                <br><br>
+                <input type="text" name="name" placeholder="Name">
+                <br><br>
+                <input type="text" name="country" placeholder="Country">
+                <br><br>
+                <input type="text" name="city" placeholder="City">
+                <br><br>
+                <input type="text" name="phone" placeholder="Phone">
+                <br><br>
+                <button>SIGNUP</button>
+                <br><br>
+                <a style="color: rgb(56, 169, 221);" href="login.html">Already have an account? Log in.</a>
+                <br><br>
+                <a style="color: rgb(56, 169, 221);" href="contact.html">Contact Us.</a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

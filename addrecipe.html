@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Add a recipe</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <div class="menu">
+        <div class = "menu-div"><a href="index.html">HOME</a></div>
+        <div class = "menu-div"><a href="addrecipe.html">ADD A RECIPE</a></div>
+        <div class = "menu-div"><a href="searchdishes.html">SEARCH DISHES</a></div>
+        <div class = "menu-div"><a href="login.html">LOG IN</a></div>
+        <div class = "menu-div"><a href="signup.html">REGISTER</a></div>
+        <div class = "menu-div"><a href="contact.html">CONTACT</a></div>
+        <div class = "menu-div"><a href="info.html">ABOUT US</a></div>
+        <div class = "translt-div" id="translt"></div>
+    </div>
+</header>
+<body background="Img/sss.jpg">
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="app.js"></script>
+    <div class ="container" >
+        <div class = "container-1-4">
+            <form  style="margin: auto">
+                <h1 >Add a Recipe</h1>
+                <input type="text" name="email" id = "email" placeholder="Your Email" onkeyup="emailcheck()">
+                <div  id = "email-check-div">
+                </div>
+                <br>
+                <input type="text" id="dish-namee"  placeholder="Dish Name" >
+                <br><br>
+                <input type="text" id="1"  placeholder="Ingredient 1" >
+                <br><br>
+                <input type="text" id="2"  placeholder="Ingredient 2" >
+                <br><br>
+                <input type="text" id="3"  placeholder="Ingredient 3" >
+                <br><br>
+                <input type="text" id="4"  placeholder="Ingredient 4" >
+                <br><br>
+                <input type="text" id="5"  placeholder="Ingredient 5" >
+                <br><br>
+                <input type="text" id="6"  placeholder="Ingredient 6" >
+                <br><br>
+                <input type="text" id="7"  placeholder="Ingredient 7" >
+                <br><br>
+                <input type="text" id="8"  placeholder="Ingredient 8" >
+                <br><br>
+                <textarea id="method" cols="50" rows="10" placeholder="Method"></textarea>
+                <br><br>
+                <button>ADD</button>
+                <br><br>
+                <a style="color: rgb(56, 169, 221);" href="contact.html">Contact Us.</a>
+            </form>
+         
+        </div>
+
+    
+            </div>
+        </div>
+    </div>
+</body>
+</html>

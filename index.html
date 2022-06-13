@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Home</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <div class="menu">
+        <div class = "menu-div" id="div-1"><a href="index.html">HOME</a></div>
+        <div class = "menu-div"><a href="addrecipe.html">ADD A RECIPE</a></div>
+        <div class = "menu-div"><a href="searchdishes.html">SEARCH DISHES</a></div>
+        <div class = "menu-div"><a href="login.html">LOG IN</a></div>
+        <div class = "menu-div"><a href="signup.html">REGISTER</a></div>
+        <div class = "menu-div"><a href="contact.html">CONTACT</a></div>
+        <div class = "menu-div"><a href="info.html">ABOUT US</a></div>
+        <div class = "translt-div" id="translt"></div>
+    </div>
+</header>
+<body background="Img/sss.jpg">
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="app.js"></script>
+    <div class="main-container">
+      <br><br><br>
+        <div class="slider">
+
+    
+          <div class="myslide fade">
+            <img src="Img/img1.jpg" style="width:100%">
+            <div class="text">The Best Carbonara Recipe</div>
+          </div>
+
+          <div class="myslide fade">
+            <img src="Img/img2.jpg" style="width:100%;">
+            <div class="text">The Most delicious Tiramissu</div>
+          </div>
+ 
+          <div class="myslide fade">
+            <img src="Img/img3.jpg" style="width:100%">
+            <div class="text">Amazing Fish Dish Recipe</div>
+          </div>
+
+        
+          <div class="myslide fade">
+            <img src="Img/img4.jpg" style="width:100%">
+            <div class="text">The Sweetest Strawberry Dessert Recipe</div>
+          </div>
+          
+          <div class="myslide fade">
+            <img src="Img/img5.jpg" style="width:100%">
+            <div class="text">Mexican Potato Recipe</div>
+          </div>
+
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+        <br><br>
+        <div class="recipes">
+          <div class="item">      
+              <div>
+                <h2>Carbonara</h2>
+                <h3>Ingredients</h3>
+                <ul>
+                    <li>100g pancetta</li>
+                    <li>50g pecorino cheese</li>
+                    <li>50g parmesan</li>
+                    <li>3 large eggs</li>
+                    <li>350g spaghetti</li>
+                    <li>2 plump garlic cloves, peeled and left whole</li>
+                    <li>50g unsalted butter</li>
+                    <li>sea salt and freshly ground black pepper</li>
+                </ul>
+        
+              </div>
+              <img src="Img/img1.jpg" style="width:60%">
+              
+
+          </div>
+
+          <div class="item">      
+            <div>
+              <h2>Tiramissu</h2>
+              <h3>Ingredients</h3>
+              <ul>
+                  <li>300 g Savoiardi Ladyfingers</li>
+                  <li>500 g mascarpone</li>
+                  <li>4 medium eggs without shells</li>
+                  <li>100 g granulated sugar</li>
+                  <li>300 ml coffee</li>
+                  <li>2 tablespoons of Rum or Marsala</li>
+                  <li>unsweetened cocoa powder</li>  
+              </ul>
+            </div>
+            <img src="Img/img2.jpg" style="width:60%">
+        </div>
+        
+        <div class="item">      
+          <div>
+            <h2>Fish Dish</h2>
+            <h3>Ingredients</h3>
+            <ul>
+                <li>1 large onion, chopped</li>
+                <li>1 garlic clove, chopped</li>
+                <li>1-2 tbsp Madras curry paste</li>
+                <li>400g can tomato</li>
+                <li>200ml vegetable stock</li>
+                <li>sustainable white fish fillets</li>
+                <li>rice or naan bread</li>
+            </ul>
+          </div>
+          <img src="Img/img3.jpg" style="width:60%">
+      </div>
+      <div class="item">      
+        <div>
+          <h2>Strawberry Dessert</h2>
+          <h3>Ingredients</h3>
+          <ul>
+              <li>8 oz cream cheese</li>
+              <li>1 cup strawberries</li>
+              <li>1 tsp vanilla</li>
+              <li>1 tsp lemon juice</li>
+              <li>2 TBSP powdered sugar</li>
+          </ul>
+        </div>
+        <img src="Img/img4.jpg" style="width:60%">
+    </div>
+    <div class="item">      
+      <div>
+        <h2>Mexican Potato</h2>
+        <h3>Ingredients</h3>
+        <ul>
+            <li>800g potato</li>
+            <li>1 tbsp olive oil</li>
+            <li>1 onion</li>
+            <li>1 garlic clove</li>
+            <li>½ tsp mild chilli powder</li>
+            <li>½ tsp paprika</li>
+            <li>1 tsp cumin</li>
+            <li>½ tsp cayenne pepper</li>
+            <li>soured cream, to serve</li>
+        </ul>
+      </div>
+      <img src="Img/img5.jpg" style="width:60%">
+  </div>
+  <div class="item">      
+    <div>
+      <h2>Classic Cold Coffee</h2>
+      <h3>Ingredients</h3>
+      <ul>
+          <li>some instant coffee powder</li>
+          <li>chilled milk</li>
+          <li>sugar</li>
+          <li>a few ice cubes</li>
+      </ul>
+    </div>
+   
+    <img src="https://static.toiimg.com/thumb/msid-70554300,width-800,height-600,resizemode-75,imgsize-1234460,pt-32,y_pad-40/70554300.jpg" style="width:60%">
+</div>
+        </div>
+
+      </div>
+
+</body>
+</html>

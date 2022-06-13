@@ -1,0 +1,312 @@
+input{
+    border: 1px solid rgb(17, 5, 61);
+    height: 36px;
+    padding-left: 10px;
+    border-radius: 5px;
+    width: 280px;
+    font-size: 15px;
+}
+textarea{
+  border: 1px solid rgb(17, 5, 61);
+  border-radius: 5px;
+}
+button{
+    border: 1px solid rgb(17, 5, 61);
+    background-color:rgb(17, 5, 61);
+    border-radius: 5px;
+    width: 280px;
+    color: white;
+    height: 45px ;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.container{
+    display: flex;
+    justify-content:center;
+    width:100%;
+    min-height:900px;
+    align-items:center;
+
+    
+}
+
+.container-1-1, .container-1-2, .container-1-3, .container-1-4{
+    text-align: center;
+    width: 500px;
+    background-color: black;
+    border-radius: 25px;
+    display: flex;
+
+    
+}
+.container-1-1{
+  margin-top: 50px;
+    height: 900px;
+}
+.container-1-2{
+    height: 500px;
+}
+
+.container-1-3{
+    height: 500px;
+    align-items: center;
+
+}
+
+.container-1-4{
+  margin-top: 50px;
+  min-height:850px;
+}
+
+
+h1{
+    color:white;
+    font-weight: 100;
+    font-size: 40px; 
+    font-family: Arial, sans-serif;
+}
+td ,p, h2,h3,li{
+    color: white;
+    font-weight: 100;
+
+    font-family: Arial, sans-serif;
+}
+  
+  .weak{
+    text-align: center;
+    background-color: rgb(240, 182, 182);
+    border: 1px solid red;
+    height: 20px;
+    color: red;
+    padding-top: 5px;
+    border-radius: 5px;
+    width: 290px;
+    font-size: 15px;
+  }
+  
+.medium{
+    text-align: center;
+    background-color: rgb(247, 210, 175);
+    border: 1px solid rgb(250, 133, 24);
+    height: 20px;
+    color:rgb(250, 133, 24);
+    padding-top: 5px;
+    border-radius: 5px;
+    width: 290px;
+    font-size: 15px;
+}
+.strong {
+    text-align: center;
+    background-color: rgb(255, 254, 168);
+    border: 1px solid rgb(202, 189, 2);
+    height: 20px;
+    color: rgb(202, 189, 2);
+    padding-top: 5px;
+    border-radius: 5px;
+    width: 290px;
+    font-size: 15px;
+  }
+  
+.very-strong{
+    text-align: center;
+    background-color: rgb(165, 245, 176);
+    border: 1px solid rgb(21, 199, 45);
+    height: 20px;
+    color: rgb(21, 199, 45);
+    padding-top: 5px;
+    border-radius: 5px;
+    width: 290px;
+    font-size: 15px;
+}
+
+.icons{
+    height:30px;
+    width: 30px;
+}
+
+.menu{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(17, 5, 61);
+    color: white;
+    display: flex;
+}
+
+.menu div{
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    font-weight: 50;
+}
+
+.menu div a{
+    position: relative;
+    top:17px;
+    color:white;
+    text-decoration: none;
+}
+
+
+.menu-div:hover{
+    background-color: rgb(2, 0, 6);
+}
+
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    min-height: 2000px;
+ 
+
+}
+
+.slider {
+  max-width: 900px;
+  position: relative;
+  margin: auto;
+}
+
+
+.myslide {
+  display: none;
+
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(17, 5, 61);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: rgb(5, 1, 19);
+  font-family: Arial, sans-serif;
+  font-size: 50px;
+  font-weight: 100;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.translt-div{
+    position: relative;
+    top:11px;
+
+}
+ul{
+  list-style-type: none;
+
+}
+h2,h3{
+  text-align: center;
+}
+
+.item{
+  background-color: rgb(5, 1, 17);
+  border-radius: 15px;
+  height: 450px;
+  width: 550px;
+  display: flex;
+  justify-content:space-around;
+  flex-direction: row;
+  align-items: center;
+  padding:20px;
+}
+.item:hover{
+  box-shadow: 0 10px 18px  rgba(0,0,0,0.2);
+  background-color: rgb(11, 4, 34);
+  height: 500px;
+}
+.recipes{
+  min-height:1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.search-container{
+    text-align: center;
+    width: 500px;
+    background-color: black;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    min-height: 1000px;
+    min-width: 1200px;
+    padding: 20px;
+    margin-top: 50px;
+}
+.dish-item{
+  width: 220px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 21px -12px rgb(18, 7, 53);
+}
+.name{
+  color: black;
+}
+.dish-img{
+  display: block;
+  width: 100%;
+  border-radius: 15px;
+}
+#dish{
+  min-height: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Search Dishes</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <div class="menu">
+        <div class = "menu-div" id="div-1"><a href="index.html">HOME</a></div>
+        <div class = "menu-div"><a href="addrecipe.html">ADD A RECIPE</a></div>
+        <div class = "menu-div"><a href="searchdishes.html">SEARCH DISHES</a></div>
+        <div class = "menu-div"><a href="login.html">LOG IN</a></div>
+        <div class = "menu-div"><a href="signup.html">REGISTER</a></div>
+        <div class = "menu-div"><a href="contact.html">CONTACT</a></div>
+        <div class = "menu-div"><a href="info.html">ABOUT US</a></div>
+        <div class = "translt-div" id="translt"></div>
+    </div>
+</header>
+<body background="Img/sss.jpg">
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="app.js"></script>
+    <div class="container">
+    <div class="search-container">
+            <br><br><br>
+    <div class="search-dish">
+        <h2>Write An Ingredient And Search A Dish!</h2>
+
+        <div class="search-box">
+            <input type="text" id="search-input" placeholder="Enter an ingredient">
+            <br><br>
+            <button type="submit" id="search-btn" onclick="getdishlist()">Search</button>
+        </div>
+    </div>
+    <div class="result">
+        <h2>Your Results:</h2>
+        <div id="dish">
+        
+    
+
+        </div>
+    </div>
+  
+</div>
+</body>
+
+</html>
